@@ -9,7 +9,7 @@
     <text x="62" y="220" fill="#b6beb9" font-size="21">模型训练 · 边端推理 · AI 玩具 · 消防机械手</text>
     <line x1="60" y1="257" x2="1220" y2="257" stroke="#343b35"/>
     <text x="62" y="297" fill="#a3e635" font-size="16" font-weight="600" letter-spacing="1.5">ENGINEERING &amp; OPEN SOURCE</text>
-    <text x="1220" y="297" text-anchor="end" fill="#b6beb9" font-size="17">重庆浩鲸智能 / JetLinks</text>
+    <text x="1220" y="297" text-anchor="end" fill="#b6beb9" font-size="17">重庆浩鲸智能</text>
   </g>
   <g transform="translate(1080 66) scale(1.85)"><defs><linearGradient id="n4g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2d3237"/><stop offset="1" stop-color="#15181a"/></linearGradient><radialGradient id="n4r"><stop offset="0" stop-color="#a3e635" stop-opacity=".55"/><stop offset="1" stop-color="#a3e635" stop-opacity="0"/></radialGradient><clipPath id="n4c"><rect width="64" height="64" rx="14"/></clipPath></defs><g clip-path="url(#n4c)"><rect width="64" height="64" fill="url(#n4g)"/><path d="M-2 45C8 45 11 35 20 35S31 45 39 45 48 36 53 34.5" fill="none" stroke="#a3e635" stroke-width="7" stroke-linecap="round" opacity=".12"/><path d="M-2 38C8 38 11 27 20 27S31 38 39 38 48 29 52 28" fill="none" stroke="#a3e635" stroke-width="4.2" stroke-linecap="round"/><circle cx="55" cy="27.5" r="12" fill="url(#n4r)"/><circle cx="55" cy="27.5" r="4.8" fill="#c8f56a"/><circle cx="55" cy="27.5" r="2.2" fill="#f4ffe0"/></g></g>
 </svg>

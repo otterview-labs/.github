@@ -12,7 +12,7 @@
 
 ## 关于 Otterview Labs
 
-**Otterview Labs 是重庆浩鲸智能团队的技术与开源组织，属于 JetLinks 体系。**
+**Otterview Labs 是重庆浩鲸智能团队的技术与开源组织。**
 
 我们做模型训练平台、边缘 AI 设备，也开发文旅 AI 玩具和消防机械手。软件、模型和硬件一起做：训练出来的模型要能在设备上运行，设备要能接入现场的视频和业务系统。
 
@@ -102,4 +102,4 @@ WhaleBox 边缘 AI 盒子与 WhaleStack 软件栈，负责视频接入、模型�
 
 ---
 
-<p align="center"><sub>Otterview Labs · 重庆浩鲸智能 · JetLinks</sub></p>
+<p align="center"><sub>Otterview Labs · 重庆浩鲸智能</sub></p>
