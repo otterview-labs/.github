@@ -19,11 +19,11 @@ Otterview Labs 是重庆浩鲸智能团队的技术与开源组织。我们做�
 
 ### 智能硬件
 
-研发边缘 AI 设备、语音交互终端和专用控制设备。WhaleBox 用于现场视频分析，交互设备和消防机械手各自承担讲解、提醒或面板操作。
+研发边缘 AI 设备、语音交互终端和专用控制设备。aibox 用于现场视频分析，交互设备和消防机械手各自承担讲解、提醒或面板操作。
 
 <p>
-  <img src="https://raw.githubusercontent.com/otterview-labs/.github/main/profile/assets/edge-box.jpg" alt="WhaleBox 边缘 AI 盒子产品示意图" width="640">
-  <br><sub>WhaleBox 产品示意图</sub>
+  <img src="https://raw.githubusercontent.com/otterview-labs/.github/main/profile/assets/edge-box.jpg" alt="aibox 边缘 AI 盒子产品示意图" width="640">
+  <br><sub>aibox 产品示意图</sub>
 </p>
 
 | 设备 | 用途 |
@@ -36,7 +36,7 @@ Otterview Labs 是重庆浩鲸智能团队的技术与开源组织。我们做�
 
 模型训练平台为视觉和设备研发管理素材、标注、数据版本与训练任务。AI 标注经人工审核后发布，支持目标检测模型训练和视觉语言模型微调。
 
-WhaleStack 是 WhaleBox 的配套推理软件，处理视频接入、解码、抽帧、模型推理和告警回传。设备选型与模型部署按视频路数、模型和现场环境确定。
+WhaleStack 是 aibox 的配套推理软件，处理视频接入、解码、抽帧、模型推理和告警回传。设备选型与模型部署按视频路数、模型和现场环境确定。
 
 ## 开源项目
 
