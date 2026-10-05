@@ -3,13 +3,13 @@
   <img src="https://raw.githubusercontent.com/otterview-labs/.github/main/profile/banner.svg?v=20261003-2" alt="Otterview Labs · Computer vision & intelligent hardware" width="100%">
 </picture>
 
-[关于我们](#关于我们) · [研发方向](#研发方向) · [开源项目](#开源项目) · [团队介绍](https://github.com/otterview-labs/.github/blob/main/profile/TEAM.md)
+[关于我们](#关于我们) · [研发方向](#研发方向) · [公开项目](#公开项目) · [项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.md) · [团队介绍](https://github.com/otterview-labs/.github/blob/main/profile/TEAM.md)
 
 ## 关于我们
 
 Otterview Labs 是重庆浩鲸智能团队的技术与开源组织。我们研发视频事件复判、视觉检索与巡检软件，也开发 aibox、语音交互设备和消防机械手。
 
-这里也有可以自行部署的开源工具：[agentBridge](https://github.com/otterview-labs/agentBridge) 用于在手机与电脑上处理 AI 编程任务，[SightIndex](https://github.com/otterview-labs/SightIndex) 用于检索本地图片与视频，[ChatBI](https://github.com/otterview-labs/chatbi) 探索自然语言问数。代码和安装说明都在各自仓库里。
+这里也维护公开项目：[agentBridge](https://github.com/otterview-labs/agentBridge) 用于在手机与电脑上处理 AI 编程任务，[SightIndex](https://github.com/otterview-labs/SightIndex) 用于检索本地图片与视频，[ChatBI](https://github.com/otterview-labs/chatbi) 探索自然语言问数。代码和使用说明都在各自仓库里。
 
 ## 研发方向
 
@@ -41,7 +41,11 @@ Otterview Labs 是重庆浩鲸智能团队的技术与开源组织。我们研�
 
 WhaleStack 为 aibox 提供视频接入、解码、抽帧、模型推理和告警回传。边缘 Agent 与场景包的研发用于组织模型调用和事件处理流程；我们也开展高通平台的模型适配与运行验证。设备选型与模型部署按视频路数、模型和现场环境确定。
 
-## 开源项目
+<a id="开源项目"></a>
+
+## 公开项目
+
+想先试用，可以从 agentBridge 的安卓版开始。SightIndex 提供本地素材接入与处理流程，ChatBI 提供规则模拟模式的问数体验。版本、文档与授权状态汇总在[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.md)。
 
 ### [agentBridge](https://github.com/otterview-labs/agentBridge)
 
@@ -53,18 +57,18 @@ WhaleStack 为 aibox 提供视频接入、解码、抽帧、模型推理和告�
 
 为本地图片、视频和摄像头流建立可检索的视觉索引，找到相关内容后查看原始素材。提供人员检测、视觉与属性检索，以及 FastAPI 接口和 Vue 控制台。项目是实验性参考实现，检索结果需人工复核。
 
-[安装与使用](https://github.com/otterview-labs/SightIndex#readme) · [中文文档](https://github.com/otterview-labs/SightIndex/blob/main/README.zh-CN.md) · [问题反馈](https://github.com/otterview-labs/SightIndex/issues)
+[首次体验](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) · [中文文档](https://github.com/otterview-labs/SightIndex/blob/main/README.zh-CN.md) · [问题反馈](https://github.com/otterview-labs/SightIndex/issues)
 
 ### [ChatBI](https://github.com/otterview-labs/chatbi)
 
-用自然语言提出数据问题，尝试转换为 SQL 查询，返回图表和报告。项目处于原型阶段。
+用自然语言提出数据问题，查看 SQL、表格和图表，再把图表放到 Dashboard。项目处于原型阶段，默认使用规则模拟模式，真实模型需另行配置。
 
-[项目说明](https://github.com/otterview-labs/chatbi#readme) · [问题反馈](https://github.com/otterview-labs/chatbi/issues)
+[首次体验](https://github.com/otterview-labs/chatbi/blob/main/projects/chatbi-smart-ask/docs/first-query.md) · [项目说明](https://github.com/otterview-labs/chatbi#readme) · [English](https://github.com/otterview-labs/chatbi/blob/main/README.en.md) · [问题反馈](https://github.com/otterview-labs/chatbi/issues)
 
 ## 交流与贡献
 
 欢迎试用项目、反馈问题，也欢迎补充文档和提交代码。使用问题请在对应仓库提交 Issue，附上运行环境、复现步骤与必要日志；较大的代码改动建议先讨论，再提交 Pull Request。
 
-各项目的许可证、部署条件和功能范围见仓库文档。
+agentBridge 使用 Apache-2.0。SightIndex 与 ChatBI 尚未明确覆盖整个项目的许可证，具体授权状态、部署条件和功能范围见仓库文档。
 
 [团队介绍](https://github.com/otterview-labs/.github/blob/main/profile/TEAM.md) · [Labs 网站](https://otterview-labs.github.io/)
