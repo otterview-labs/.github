@@ -64,4 +64,4 @@ aibox 的配套推理软件，处理视频接入、解码、抽帧、模型推�
 
 欢迎交流视觉算法、模型训练与边缘部署，也欢迎参与项目开发。开源项目问题请在对应仓库提交 Issue，说明运行环境、复现步骤和希望解决的问题；文档与代码改进可以提交 Pull Request。
 
-[返回组织主页](https://github.com/otterview-labs) · [Labs 网站](https://otterview-labs.github.io/)
+[返回组织主页](https://github.com/otterview-labs) · [项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.md)
