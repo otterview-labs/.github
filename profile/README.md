@@ -1,8 +1,6 @@
 # Otterview Labs
 
-Computer vision & intelligent hardware · 计算机视觉与智能硬件
-
-我们研发视觉检索、视频事件复判与智能硬件，也维护 AI 编程任务管理和数据查询工具。这里可以找到公开代码、安装入口和使用文档。
+专注于 AI 视觉与 AI 硬件两个领域。
 
 ## 公开项目
 
@@ -38,15 +36,6 @@ Computer vision & intelligent hardware · 计算机视觉与智能硬件
 项目处于原型阶段，默认使用规则模拟模式。首次体验使用显式生成的模拟数据；真实模型和外部数据源需另行配置。
 
 [首次体验](https://github.com/otterview-labs/chatbi/blob/main/projects/chatbi-smart-ask/docs/first-query.md) · [项目说明](https://github.com/otterview-labs/chatbi/blob/main/README.md) · [English](https://github.com/otterview-labs/chatbi/blob/main/README.en.md) · [问题反馈](https://github.com/otterview-labs/chatbi/issues)
-
-## 产品研发
-
-| 方向 | 当前工作 |
-| --- | --- |
-| 计算机视觉 | 人员与车辆检测、视频事件复判、视觉检索，以及正在研发的 SOP 视觉巡检。 |
-| 智能硬件 | aibox、圆屏语音设备与消防机械手，涉及嵌入式固件、模型推理和设备控制。 |
-
-模型训练平台和 WhaleStack 支持数据管理、模型训练及现场部署。具体研发进展见[研发资料](https://github.com/otterview-labs/.github/blob/main/profile/TEAM.md)，公开代码与安装包以各项目仓库为准。
 
 ## 参与项目
 
