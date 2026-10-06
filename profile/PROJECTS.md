@@ -7,7 +7,7 @@
 | 项目 | 适合谁 | 第一次体验 | 当前状态与授权 |
 | --- | --- | --- | --- |
 | [agentBridge · 办公小镇](https://github.com/otterview-labs/agentBridge) | 希望在手机上查看和回复 Codex、Claude Code 任务的开发者 | [下载安卓版](https://github.com/otterview-labs/agentBridge/releases/latest)，按[使用说明](https://github.com/otterview-labs/agentBridge/blob/main/docs/android-app.md)连接自己的开发机器 | 提供中英文安卓版；管家查询与语音需配置服务，自主任务管理仍在计划中。Apache-2.0。 |
-| [SightIndex](https://github.com/otterview-labs/SightIndex) | 研究本地图片、视频和摄像头流检索的开发者 | [上传图片、处理、查看裁剪](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) · [English](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.md) | 实验性参考实现；语义检索和 ReID 需额外配置，候选结果需人工核验。尚无覆盖整个项目的许可证。 |
+| [SightIndex](https://github.com/otterview-labs/SightIndex) | 研究本地图片、视频和摄像头流检索的开发者 | [上传、处理与结果核对](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) · [常见问题](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md#常见问题) · [English](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.md) | 默认 SQLite + HOG 可体验图片接入与处理；属性解析、语义检索和 ReID 需额外配置。实验性参考实现，候选结果需人工核验；尚无覆盖整个项目的许可证，模型与第三方组件另有授权说明。 |
 | [ChatBI](https://github.com/otterview-labs/chatbi) | 验证自然语言问数、SQL 和图表流程的开发者 | [规则模拟问数体验](https://github.com/otterview-labs/chatbi/blob/main/projects/chatbi-smart-ask/docs/first-query.md) · [English README](https://github.com/otterview-labs/chatbi/blob/main/README.en.md) | 原型；示例数据需显式生成，真实模型和外部数据源需配置。尚无覆盖整个项目的许可证。 |
 | [.github](https://github.com/otterview-labs/.github) | 了解团队和研发方向的读者 | [团队介绍](TEAM.md) | 组织介绍、项目索引与展示素材，不是可安装的软件。 |
 
