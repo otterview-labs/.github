@@ -2,6 +2,8 @@
 
 专注于 AI 视觉与 AI 硬件两个领域。
 
+[Labs 介绍页](https://otterview-labs.github.io/zh/) · [English](https://otterview-labs.github.io/)
+
 ## 公开项目
 
 ### [agentBridge · 办公小镇](https://github.com/otterview-labs/agentBridge)

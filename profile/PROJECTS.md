@@ -1,6 +1,6 @@
 # Otterview Labs 项目索引
 
-[组织主页](https://github.com/otterview-labs) · [团队介绍](TEAM.md)
+[组织主页](https://github.com/otterview-labs) · [Labs 介绍页](https://otterview-labs.github.io/zh/) · [团队介绍](TEAM.md)
 
 ## 公开仓库
 
