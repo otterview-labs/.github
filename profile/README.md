@@ -1,6 +1,6 @@
 # Otterview Labs
 
-专注于 AI 视觉与 AI 硬件两个领域。
+专注于 AI 视觉软件，开发模型训练平台与 aibox 部署软件。
 
 [Labs 介绍页](https://otterview-labs.github.io/zh/) · [English](https://otterview-labs.github.io/)
 
