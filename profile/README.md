@@ -1,3 +1,9 @@
+<p>
+  <a href="https://otterview-labs.github.io/zh/">
+    <img src="https://raw.githubusercontent.com/otterview-labs/.github/main/profile/assets/otterview-water.png" alt="Otterview" width="300">
+  </a>
+</p>
+
 # Otterview Labs
 
 专注于 AI 视觉软件，开发模型训练平台与 aibox 部署软件。
