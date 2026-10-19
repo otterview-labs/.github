@@ -34,6 +34,12 @@
 
 [首次体验](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) · [中文文档](https://github.com/otterview-labs/SightIndex/blob/main/README.zh-CN.md) · [English](https://github.com/otterview-labs/SightIndex/blob/main/README.md) · [问题反馈](https://github.com/otterview-labs/SightIndex/issues)
 
+### [DocuGen](https://github.com/otterview-labs/DocuGen)
+
+把资料放进知识库，查看原文和检索结果，填写 Word 模板或按章节生成文档。可以先手动填模板；AI 填写和文档写作需要配置模型服务。适合个人或可信团队自部署，目前使用一个共享工作区。
+
+[安装与使用](https://github.com/otterview-labs/DocuGen#readme) · [版本发布](https://github.com/otterview-labs/DocuGen/releases) · [English](https://github.com/otterview-labs/DocuGen/blob/main/README.en.md) · [问题反馈](https://github.com/otterview-labs/DocuGen/issues)
+
 ### [ChatBI](https://github.com/otterview-labs/chatbi)
 
 用自然语言提出数据问题，查看生成的 SQL、查询结果与图表，再把图表放到 Dashboard。适合验证从提问到结果展示的完整流程。
