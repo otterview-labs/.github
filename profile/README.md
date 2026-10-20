@@ -1,6 +1,6 @@
 <p>
   <a href="https://otterview-labs.github.io/zh/">
-    <img src="https://raw.githubusercontent.com/otterview-labs/.github/main/profile/assets/otterview-water.png" alt="Otterview" width="300">
+    <img src="https://raw.githubusercontent.com/otterview-labs/.github/main/profile/assets/otterview-wordmark.jpg" alt="Otterview" width="300" height="100">
   </a>
 </p>
 
