@@ -2,7 +2,7 @@
 
 Otterview Labs 是重庆浩鲸智能团队的技术与开源组织，团队在重庆。团队主要开发 AI 视觉软件，工作围绕模型训练与部署应用展开：训练平台管理数据和模型，aibox 把模型用于现场视频分析。
 
-团队也维护公开项目，供开发者了解 AI 编程任务管理、图片与视频检索，以及自然语言数据查询。
+团队也维护公开项目，供开发者了解 AI 编程任务管理、图片与视频检索。
 
 ## 研发方向
 
@@ -58,9 +58,8 @@ aibox 是结合 CV 与大模型的视觉分析软件。CV 检测目标并筛选�
 | --- | --- |
 | [agentBridge](https://github.com/otterview-labs/agentBridge) | 在手机上查看多台开发机器的 Codex、Claude Code 会话，查询待回复任务、准备草稿，并由用户发送回复。 |
 | [SightIndex](https://github.com/otterview-labs/SightIndex) | 图片、视频和摄像头流的视觉索引与检索，实验性参考实现，结果需人工复核。 |
-| [ChatBI](https://github.com/otterview-labs/chatbi) | 自然语言问数原型，包含 SQL 生成、图表和报告。 |
 
-各项目的安装入口与当前状态见[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.md)。agentBridge 使用 Apache-2.0；SightIndex 与 ChatBI 尚未明确覆盖整个项目的许可证，授权状态以仓库说明为准。
+各项目的安装入口与当前状态见[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.md)。许可证与适用范围以各仓库的授权文件为准。
 
 ## 交流
 

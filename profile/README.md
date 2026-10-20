@@ -40,17 +40,6 @@
 
 [安装与使用](https://github.com/otterview-labs/DocuGen#readme) · [版本发布](https://github.com/otterview-labs/DocuGen/releases) · [English](https://github.com/otterview-labs/DocuGen/blob/main/README.en.md) · [问题反馈](https://github.com/otterview-labs/DocuGen/issues)
 
-### [ChatBI](https://github.com/otterview-labs/chatbi)
-
-用自然语言提出数据问题，查看生成的 SQL、查询结果与图表，再把图表放到 Dashboard。适合验证从提问到结果展示的完整流程。
-
-- 保留 SQL 和表格，便于核对查询是否符合问题。
-- 提供图表展示与 Dashboard，使用 FastAPI 和 Vue。
-
-项目处于原型阶段，默认使用规则模拟模式。首次体验使用显式生成的模拟数据；真实模型和外部数据源需另行配置。
-
-[首次体验](https://github.com/otterview-labs/chatbi/blob/main/projects/chatbi-smart-ask/docs/first-query.md) · [项目说明](https://github.com/otterview-labs/chatbi/blob/main/README.md) · [English](https://github.com/otterview-labs/chatbi/blob/main/README.en.md) · [问题反馈](https://github.com/otterview-labs/chatbi/issues)
-
 ## 参与项目
 
 试用后可以在对应仓库提交 Issue，附上版本、复现步骤和必要日志。文档补充与代码改进欢迎提交 Pull Request，较大的改动建议先讨论。
