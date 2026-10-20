@@ -1,3 +1,25 @@
+# Otterview Labs
+
+We build computer vision software and open-source tools in Chongqing, China.
+
+[Company website](https://otterview.ai/?utm_source=github&utm_campaign=org-profile) · [Lutrio training platform](https://otterview.ai/training-platform?utm_source=github&utm_campaign=org-profile) · [Technical articles](https://otterview-labs.github.io/) · [Discuss a project](https://otterview.ai/contact?source=github&utm_campaign=org-profile#evaluation-form)
+
+Lutrio by Otterview brings data preparation, assisted annotation and CV/VLM training workflows into one project. The overseas environment currently provides invited sign-in; complete training execution is not open yet. See the product page for availability and evaluation scope.
+
+## Open-source projects
+
+| Project | What to try | Current scope |
+| --- | --- | --- |
+| [SightIndex](https://github.com/otterview-labs/SightIndex) | Self-hosted visual indexing for images, videos and camera streams | Experimental reference implementation; optional models require configuration and results need human review |
+| [agentBridge](https://github.com/otterview-labs/agentBridge) | View and reply to coding-agent sessions from Android | Requires an accessible development computer; see the downloads, first-run guide and operation video |
+| [AgentHarbor](https://github.com/otterview-labs/agentharbor) | Coordinate local coding agents with execution and review | Alpha desktop release; supported tools and platforms are listed in the repository |
+| [DocuGen](https://github.com/otterview-labs/DocuGen) | Search source material, fill Word templates and generate documents | Self-hosted workspace; AI features require a configured model service |
+| [ChatBI](https://github.com/otterview-labs/chatbi) | Inspect natural-language queries, SQL, tables and charts | Prototype; uses a rule-based demo by default |
+
+For project support, use the corresponding repository's Issues. For product demos or business enquiries, [contact Otterview](https://otterview.ai/contact?source=github&utm_campaign=org-profile#evaluation-form).
+
+## 中文介绍
+
 <p>
   <a href="https://otterview-labs.github.io/">
     <img src="https://raw.githubusercontent.com/otterview-labs/.github/main/profile/assets/otterview-wordmark.jpg" alt="Otterview" width="300" height="100">
