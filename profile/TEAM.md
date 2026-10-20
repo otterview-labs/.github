@@ -1,68 +1,70 @@
 # Otterview Labs
 
-Otterview Labs 是重庆浩鲸智能团队的技术与开源组织，团队在重庆。团队主要开发 AI 视觉软件，工作围绕模型训练与部署应用展开：训练平台管理数据和模型，aibox 把模型用于现场视频分析。
+English · [中文](TEAM.zh-CN.md)
 
-团队也维护公开项目，供开发者了解 AI 编程任务管理、图片与视频检索。
+Otterview Labs is the technology and open-source organization of 重庆浩鲸智能, based in Chongqing, China. We develop AI vision software for model training and deployment: the training platform manages data and models, while aibox applies models to video analysis on site.
 
-## 研发方向
+We also maintain public projects for coding-agent task management and image and video retrieval.
 
-### 计算机视觉
+## Research directions
 
-针对图片、视频和摄像头流中的人员、车辆及事件，开展目标检测、事件复判和视觉检索研发。
+### Computer vision
 
-事件复判先由 CV 筛选候选事件，再交给视觉语言模型复核，检查事件是否成立。视觉检索用于查找相关图片和视频，结果回到原始素材，由使用者核对。
+Our work covers object detection, event review and visual retrieval for people, vehicles and events in images, videos and camera streams.
 
-SOP 视觉巡检正在研发。使用者配置检查规则和模型，采集现场画面，查看检查结果及保存的证据。研发包含管理端规则配置和 Android 巡检端，移动端采集与视频上传仍在进行实机验证。
+For event review, CV selects candidate events and a vision-language model checks them against the scene. Visual retrieval finds related images and videos, with source material available for users to verify.
 
-### 设备应用探索
+SOP visual inspection is in development. Users configure inspection rules and models, capture on-site images, and inspect results and saved evidence. Work includes rule management and an Android inspection client; mobile capture and video uploads are still undergoing device testing.
 
-团队也探索视觉感知、语音交互与设备控制，开发配套固件、语音服务和控制逻辑。以下项目属于已有样机与应用研究。
+### Device applications
 
-消防机械手通过视觉标定确定面板和按键的位置，用机械臂末端的按压执行器操作消防控制器，按现有面板进行适配。
+We explore visual perception, voice interaction and device control, including firmware, voice services and control logic. These projects involve prototypes and application research.
 
-文旅 IP 徽章是随身佩戴的圆屏设备，用于角色语音讲解和景点电子印章。研发包括设备固件、语音服务，以及通过蓝牙交互的配套小程序；小程序的手机实测与发布仍在推进。程序员桌面助手显示 AI 编程任务，在需要输入或确认时提醒用户。
+The fire-control manipulator uses visual calibration to locate a panel and its buttons. A pressing tool on the arm operates the existing fire-control panel, with adaptation for each panel layout.
 
-## 模型训练与部署
+A wearable round-screen tourism badge provides character voice guides and electronic attraction stamps. Work includes firmware, voice services and a companion mini program connected over Bluetooth. Phone testing and publication of the mini program are still in progress. A programmer's desktop assistant displays AI coding tasks and alerts the user when input or confirmation is needed.
 
-训练平台通过 Agent 引导模型训练，aibox 结合 CV 检测与大模型复核，把模型用于现场视频分析。
+## Model training and deployment
 
-### 模型训练平台
+The training platform uses an agent to guide model training. aibox combines CV detection with vision-language model review for on-site video analysis.
 
-面向第一次训练模型的使用者，可用自然语言与 Agent 交流，在引导下完成数据准备、模型训练和结果查看。助手准备操作参数、查询任务，关键操作由用户确认。
+### Model training platform
 
-团队在同一个项目里管理素材、标注、数据版本、训练任务和模型产物，分别使用目标检测与图文问答工作区。图片可以直接导入，视频文件和实时流可以抽帧采集。
+People training their first model can use natural language to work through data preparation, training and result inspection. The assistant prepares parameters and queries tasks; users confirm key operations.
 
-在标注台修改检测框、类别或图文问答。AI 标注经人工审核后发布为数据版本。选择数据版本、基座模型和参数后提交训练任务，再查看模型产物与评测记录。
+Media, annotations, dataset versions, training jobs and model artifacts are managed within a project, with separate workspaces for object detection and visual question answering. Images can be imported directly; frames can be sampled from video files and live streams.
 
-助手可以查询任务、准备操作参数，确认后执行。通过参考图和提示词生成的新图片，同样进入标注与审核流程。
+Users edit boxes, classes or image-question-answer pairs in the annotation workspace. AI annotations go through human review before publication as a dataset version. Training uses a selected dataset version, base model and parameters; model artifacts and evaluation records can then be inspected.
 
-### aibox 模型部署
+Images generated from references and prompts follow the same annotation and review process.
 
-aibox 是结合 CV 与大模型的视觉分析软件。CV 检测目标并筛选候选事件，视觉语言模型结合画面与场景规则复核，再回传事件结果与告警。
+### aibox model deployment
 
-团队主要开发软件与模型适配，不生产边缘设备。部署使用适合现场的计算设备，可用模型、视频规模与运行效果结合具体版本和运行环境确认。
+aibox is visual analysis software combining CV and vision-language models. CV detects objects and selects candidate events. A vision-language model reviews the images against scene rules, then event results and alerts are returned to business systems.
 
-### 边缘 Agent 与模型适配
+We focus on software and model adaptation, and do not manufacture edge devices. Deployment uses computing hardware suited to the site. Supported models, video capacity and results depend on the version and runtime environment.
 
-把模型调用、场景规则和事件处理流程组织为可配置的任务与场景包。研发涉及目标检测、视觉语言模型复核，以及高通平台上的模型运行与接口适配。场景包的测试、设备适配和完整流程验证分别推进，具体可用范围以实际版本为准。
+### Edge agents and model adaptation
 
-## 后续规划
+We organize model calls, scene rules and event handling into configurable tasks and scene packages. Research includes object detection, vision-language model review, and model execution and interface adaptation on Qualcomm platforms. Scene-package testing, device adaptation and end-to-end validation are progressing separately; availability depends on the validated version.
 
-机器人与具身智能是后续研发计划。当前已完成消防机械手样机，继续积累视觉感知与设备控制的工程经验。
+## Future work
 
-机械臂与 PLC、嵌入式控制器的联动也在方案研究中，需按控制接口和设备条件进行验证。
+Robotics and embodied AI are future research plans. A fire-control manipulator prototype has been completed, providing experience in visual perception and device control.
 
-## 公开项目
+Integration between robotic arms, PLCs and embedded controllers is also being studied and needs validation against the available interfaces and devices.
 
-| 项目 | 用途 |
+## Public projects
+
+| Project | Purpose |
 | --- | --- |
-| [agentBridge](https://github.com/otterview-labs/agentBridge) | 在手机上查看多台开发机器的 Codex、Claude Code 会话，查询待回复任务、准备草稿，并由用户发送回复。 |
-| [SightIndex](https://github.com/otterview-labs/SightIndex) | 图片、视频和摄像头流的视觉索引与检索，实验性参考实现，结果需人工复核。 |
+| [agentBridge](https://github.com/otterview-labs/agentBridge) | Follow Codex and Claude Code sessions across development machines from a phone, find tasks awaiting a reply, and prepare drafts for the user to send. |
+| [SightIndex](https://github.com/otterview-labs/SightIndex) | Visual indexing and retrieval for images, videos and camera streams. An experimental reference implementation whose results need human review. |
 
-各项目的安装入口与当前状态见[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.md)。许可证与适用范围以各仓库的授权文件为准。
+See the [project index](PROJECTS.md) for setup and current status. License terms and scope are defined in each repository.
 
-## 交流
+## Get in touch
 
-欢迎交流视觉算法、模型训练与边缘部署，也欢迎参与项目开发。开源项目问题请在对应仓库提交 Issue，说明运行环境、复现步骤和希望解决的问题；文档与代码改进可以提交 Pull Request。
+We welcome discussion of visual algorithms, model training and edge deployment, as well as contributions to our projects. Report software problems in the relevant repository's Issues with the environment, reproduction steps and expected behavior. Documentation fixes and code changes can be submitted as pull requests.
 
-[返回组织主页](https://github.com/otterview-labs) · [Labs 介绍页](https://otterview-labs.github.io/zh/) · [项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.md)
+[Organization](https://github.com/otterview-labs) · [Website](https://otterview-labs.github.io/) · [Project index](PROJECTS.md)
