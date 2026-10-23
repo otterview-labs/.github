@@ -13,7 +13,7 @@ English · [中文](PROJECTS.zh-CN.md)
 | [DocuGen](https://github.com/otterview-labs/DocuGen) | Individuals and teams filling Word templates or writing documents from source material | [Setup and usage](https://github.com/otterview-labs/DocuGen/blob/main/README.en.md) | Incorporates the former Quill workspace for source management, retrieval, template filling and document generation. AI features need a model service. One shared workspace, without separate user permissions. Apache-2.0, with upstream attribution and provenance retained. |
 | [.github](https://github.com/otterview-labs/.github) | Readers looking for team background and research directions | [Team notes](TEAM.md) | Organization profile, project index and presentation assets. |
 
-Setup requirements vary with model services, devices and runtime environments. Check the current project documentation before trying a release. Demo data and candidate search results are not evidence of production performance.
+Setup requirements vary with model services, devices and runtime environments. Check the current project documentation before trying a release. Evaluate performance on your own data and review candidate search results.
 
 ## Product development
 
