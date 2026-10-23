@@ -8,7 +8,7 @@
 
 专注于 AI 视觉软件，开发模型训练平台与 aibox 部署软件。
 
-[English](https://github.com/otterview-labs/.github/blob/main/profile/README.md) · [Labs 介绍页](https://otterview-labs.github.io/zh/) · [English website](https://otterview-labs.github.io/)
+[English](https://github.com/otterview-labs/.github/blob/main/profile/README.md) · [公司官网](https://otterview.ai/zh/) · [Lutrio 训练平台](https://otterview.ai/zh/training-platform) · [Labs 介绍页](https://otterview-labs.github.io/zh/) · [English website](https://otterview-labs.github.io/)
 
 ## 公开项目
 
@@ -30,9 +30,9 @@
 - FastAPI 接口与 Vue 控制台，支持素材管理、人员裁剪和检索结果查看。
 - 默认 SQLite + HOG 可体验图片上传与处理；属性解析、语义检索和跨摄像头候选检索需配置相应模型与索引。
 
-实验性参考实现，检索结果需人工复核。首次体验指南包含响应对照和空结果排查。
+自部署视觉检索工具，检索结果需人工复核。首次使用指南包含响应对照和空结果排查。
 
-[首次体验](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) · [中文文档](https://github.com/otterview-labs/SightIndex/blob/main/README.zh-CN.md) · [English](https://github.com/otterview-labs/SightIndex/blob/main/README.md) · [问题反馈](https://github.com/otterview-labs/SightIndex/issues)
+[首次使用](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) · [中文文档](https://github.com/otterview-labs/SightIndex/blob/main/README.zh-CN.md) · [English](https://github.com/otterview-labs/SightIndex/blob/main/README.md) · [问题反馈](https://github.com/otterview-labs/SightIndex/issues)
 
 ### [DocuGen](https://github.com/otterview-labs/DocuGen)
 
@@ -44,4 +44,4 @@
 
 使用时可以在对应仓库提交 Issue，附上版本、复现步骤和必要日志。文档补充与代码改进欢迎提交 Pull Request，较大的改动建议先讨论。
 
-首次体验、配置条件与许可证信息汇总在[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.zh-CN.md)。
+首次使用、配置条件与许可证信息汇总在[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.zh-CN.md)。

@@ -30,7 +30,7 @@ For project support, use the corresponding repository's Issues. For product demo
 
 We build AI vision software: an agent-guided model training platform and aibox for video analysis and model deployment.
 
-[Website](https://otterview-labs.github.io/) · [中文](https://github.com/otterview-labs/.github/blob/main/profile/README.zh-CN.md)
+[Otterview website](https://otterview.ai/) · [Lutrio](https://otterview.ai/training-platform) · [Labs](https://otterview-labs.github.io/) · [中文](https://github.com/otterview-labs/.github/blob/main/profile/README.zh-CN.md)
 
 ## Open source
 
@@ -52,7 +52,7 @@ Index local images, videos and camera streams. Inspect person crops, search cand
 - FastAPI backend and Vue console for media management, person crops and search results.
 - Try image upload and processing with SQLite and HOG. Attribute parsing, semantic search and cross-camera retrieval need additional models and indexes.
 
-An experimental reference implementation. Search results need human review. The first-run guide includes response examples and help with empty results.
+A self-hosted visual retrieval project. Search results need human review. The first-run guide includes response examples and help with empty results.
 
 [First run](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.md) · [Documentation](https://github.com/otterview-labs/SightIndex/blob/main/README.md) · [Issues](https://github.com/otterview-labs/SightIndex/issues)
 

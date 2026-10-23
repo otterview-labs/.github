@@ -18,7 +18,7 @@ SOP visual inspection is in development. Users configure inspection rules and mo
 
 ### Device applications
 
-We explore visual perception, voice interaction and device control, including firmware, voice services and control logic. These projects involve prototypes and application research.
+We explore visual perception, voice interaction and device control, including firmware, voice services and control logic. Projects cover voice-interaction devices and visual-control integration.
 
 The fire-control manipulator uses visual calibration to locate a panel and its buttons. A pressing tool on the arm operates the existing fire-control panel, with adaptation for each panel layout.
 
@@ -50,7 +50,7 @@ We organize model calls, scene rules and event handling into configurable tasks 
 
 ## Future work
 
-Robotics and embodied AI are future research plans. A fire-control manipulator prototype has been completed, providing experience in visual perception and device control.
+Robotics and embodied AI are future research plans. The fire-control manipulator project provides engineering experience in visual perception and device control.
 
 Integration between robotic arms, PLCs and embedded controllers is also being studied and needs validation against the available interfaces and devices.
 
@@ -59,7 +59,7 @@ Integration between robotic arms, PLCs and embedded controllers is also being st
 | Project | Purpose |
 | --- | --- |
 | [agentBridge](https://github.com/otterview-labs/agentBridge) | Follow Codex and Claude Code sessions across development machines from a phone, find tasks awaiting a reply, and prepare drafts for the user to send. |
-| [SightIndex](https://github.com/otterview-labs/SightIndex) | Visual indexing and retrieval for images, videos and camera streams. An experimental reference implementation whose results need human review. |
+| [SightIndex](https://github.com/otterview-labs/SightIndex) | Visual indexing and retrieval for images, videos and camera streams. A self-hosted visual retrieval project whose results need human review. |
 
 See the [project index](PROJECTS.md) for setup and current status. License terms and scope are defined in each repository.
 
