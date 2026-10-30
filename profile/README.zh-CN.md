@@ -1,47 +1,30 @@
 <p>
-  <a href="https://otterview-labs.github.io/zh/">
+  <a href="https://otterview.ai/zh/">
     <img src="https://raw.githubusercontent.com/otterview-labs/.github/main/profile/assets/otterview-wordmark.jpg" alt="Otterview" width="300" height="100">
   </a>
 </p>
 
 # Otterview Labs
 
-专注于 AI 视觉软件，开发模型训练平台与 aibox 部署软件。
+我们在重庆，开发模型训练与部署应用所需的 AI 视觉软件，也维护开源开发工具。
 
-[English](https://github.com/otterview-labs/.github/blob/main/profile/README.md) · [公司官网](https://otterview.ai/zh/) · [Lutrio 训练平台](https://otterview.ai/zh/training-platform) · [Labs 介绍页](https://otterview-labs.github.io/zh/) · [English website](https://otterview-labs.github.io/)
+[公司官网](https://otterview.ai/zh/) · [技术文章](https://otterview-labs.github.io/zh/) · [English](https://github.com/otterview-labs/.github/blob/main/profile/README.md)
 
-## 公开项目
+## 开源项目
 
-### [agentBridge · 办公小镇](https://github.com/otterview-labs/agentBridge)
+| 项目 | 用途 | 开始使用 |
+| --- | --- | --- |
+| [SightIndex](https://github.com/otterview-labs/SightIndex) | 图片、视频与摄像头流的视觉索引和检索。 | [首次使用](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) |
+| [agentBridge](https://github.com/otterview-labs/agentBridge) | 在 Android 手机上查看和回复 AI 编程助手会话。 | [下载安卓版](https://github.com/otterview-labs/agentBridge/releases) |
+| [AgentHarbor](https://github.com/otterview-labs/agentharbor) | 在本机执行编程任务，由不同助手负责实现和审核。桌面 Alpha 版本。 | [桌面使用说明](https://github.com/otterview-labs/agentharbor/blob/main/docs/desktop-alpha.md) |
+| [DocuGen](https://github.com/otterview-labs/DocuGen) | 检索参考资料、填写 Word 模板和生成文档。 | [安装与使用](https://github.com/otterview-labs/DocuGen#readme) |
 
-离开电脑后，在手机上查看任务输出、翻阅记录，接着原来的 Codex、Claude Code 会话回复。多台开发机器各有自己的像素办公室，任务以员工卡片展示。
+配置条件、当前能力与许可证见[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.zh-CN.md)。SightIndex 的候选结果需要人工复核；各项目的 AI 功能需配置相应模型服务。
 
-- 通过 SSH 连接 Mac / Linux 电脑，查看多台机器的任务和待回复状态。
-- 让管家查进展、找需要输入的任务，准备回复草稿，由你确认发送。
+## 模型训练与部署
 
-提供中文与英文安卓版。基础会话操作从连接电脑开始；管家聊天与语音需要配置模型服务。
+[Lutrio](https://otterview.ai/zh/training-platform) 在同一个项目里管理数据准备、辅助标注和 CV/VLM 模型训练流程。目前海外环境提供受邀登录，完整训练执行尚未开放，具体开放范围见产品页。
 
-[下载安卓版](https://github.com/otterview-labs/agentBridge/releases/latest) · [首次使用](https://github.com/otterview-labs/agentBridge/blob/main/docs/getting-started.zh.md) · [使用文档](https://github.com/otterview-labs/agentBridge/blob/main/docs/android-app.md) · [问题反馈](https://github.com/otterview-labs/agentBridge/issues)
+aibox 结合 CV 检测与视觉语言模型复核，用于现场视频分析。我们主要开发软件与模型适配。
 
-### [SightIndex](https://github.com/otterview-labs/SightIndex)
-
-把本地图片、视频和摄像头流接入同一套视觉索引。查看检测出的人员裁剪图，按描述或已解析属性检索候选画面，再回到原始素材核对。
-
-- FastAPI 接口与 Vue 控制台，支持素材管理、人员裁剪和检索结果查看。
-- 默认 SQLite + HOG 可体验图片上传与处理；属性解析、语义检索和跨摄像头候选检索需配置相应模型与索引。
-
-自部署视觉检索工具，检索结果需人工复核。首次使用指南包含响应对照和空结果排查。
-
-[首次使用](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) · [中文文档](https://github.com/otterview-labs/SightIndex/blob/main/README.zh-CN.md) · [English](https://github.com/otterview-labs/SightIndex/blob/main/README.md) · [问题反馈](https://github.com/otterview-labs/SightIndex/issues)
-
-### [DocuGen](https://github.com/otterview-labs/DocuGen)
-
-把资料放进知识库，查看原文和检索结果，填写 Word 模板或按章节生成文档。可以先手动填模板；AI 填写和文档写作需要配置模型服务。适合个人或可信团队自部署，目前使用一个共享工作区。
-
-[安装与使用](https://github.com/otterview-labs/DocuGen#readme) · [版本发布](https://github.com/otterview-labs/DocuGen/releases) · [English](https://github.com/otterview-labs/DocuGen/blob/main/README.en.md) · [问题反馈](https://github.com/otterview-labs/DocuGen/issues)
-
-## 参与项目
-
-使用时可以在对应仓库提交 Issue，附上版本、复现步骤和必要日志。文档补充与代码改进欢迎提交 Pull Request，较大的改动建议先讨论。
-
-首次使用、配置条件与许可证信息汇总在[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.zh-CN.md)。
+使用问题请提交到对应仓库的 Issues，文档补充与代码改进欢迎提交 Pull Request。产品评估可[联系 Otterview](https://otterview.ai/contact?source=github&utm_campaign=org-profile#evaluation-form)。
