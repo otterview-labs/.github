@@ -17,7 +17,7 @@ Setup requirements vary with model services, devices and runtime environments. C
 
 ## Related repositories
 
-- [Quill](https://github.com/otterview-labs/quill) is the earlier workspace incorporated into DocuGen. Use [DocuGen](https://github.com/otterview-labs/DocuGen) for current setup instructions and development.
+- [Quill](https://github.com/otterview-labs/quill) is the archived, read-only workspace incorporated into DocuGen. Use [DocuGen](https://github.com/otterview-labs/DocuGen) for current setup instructions and development.
 - [.github](https://github.com/otterview-labs/.github) holds this organization profile and project index. [otterview-labs.github.io](https://github.com/otterview-labs/otterview-labs.github.io) holds the Labs website and technical articles.
 
 ## Product development

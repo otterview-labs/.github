@@ -17,7 +17,7 @@
 
 ## 相关仓库
 
-- [Quill](https://github.com/otterview-labs/quill) 是已整合到 DocuGen 的早期工作台。当前安装说明与后续开发统一查看 [DocuGen](https://github.com/otterview-labs/DocuGen)。
+- [Quill](https://github.com/otterview-labs/quill) 是已整合到 DocuGen 的早期工作台，现已归档为只读。当前安装说明与后续开发统一查看 [DocuGen](https://github.com/otterview-labs/DocuGen)。
 - [.github](https://github.com/otterview-labs/.github) 保存组织首页和项目索引；[otterview-labs.github.io](https://github.com/otterview-labs/otterview-labs.github.io) 保存 Labs 网站与技术文章。
 
 ## 产品研发
