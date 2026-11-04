@@ -6,11 +6,25 @@ English · [中文](PROJECTS.zh-CN.md)
 
 ## Public repositories
 
+### Visual search and image services
+
+| Project | Who it is for | Try it | Status and license |
+| --- | --- | --- | --- |
+| [SightIndex](https://github.com/otterview-labs/SightIndex) | Developers exploring local image, video and camera-stream retrieval | [Live demo](http://43.153.213.96/search) · [First run](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.md) · [README](https://github.com/otterview-labs/SightIndex/blob/main/README.md) | SQLite and HOG support a basic image upload and processing flow. Attribute parsing, semantic search and ReID need additional configuration. Candidate results need human review. Original code: Apache-2.0. Bundled materials, including SapiensID, retain separate terms; see [license scope](https://github.com/otterview-labs/SightIndex/blob/main/LICENSE_SCOPE.md). |
+| [Qwen-Image-2.1-AMD-Service](https://github.com/otterview-labs/Qwen-Image-2.1-AMD-Service) | Developers running Qwen image generation and editing on an AMD GPU | [API guide](https://github.com/otterview-labs/Qwen-Image-2.1-AMD-Service#readme) | The current configuration targets AMD Radeon AI PRO R9700. Apache-2.0. |
+
+### Document tools
+
+| Project | Who it is for | Try it | Status and license |
+| --- | --- | --- | --- |
+| [DocuGen](https://github.com/otterview-labs/DocuGen) | Individuals and teams filling Word templates or writing documents from source material | [Live demo](https://docugen.otterview.ai/templates?source=builtin) · [Setup and usage](https://github.com/otterview-labs/DocuGen#readme) | Incorporates the former Quill workspace for source management, retrieval, template filling and document generation. AI features need a model service. The standard self-hosted setup uses one shared workspace. Apache-2.0, with upstream attribution and provenance retained. |
+| [OtterView Knowledge](https://github.com/otterview-labs/otterview-knowledge) | People who need to find documents, read originals and see summaries | [Setup and usage](https://github.com/otterview-labs/otterview-knowledge#readme) | Standalone deployment with one shared operator account. Apache-2.0. |
+
+### Developer tools
+
 | Project | Who it is for | Try it | Status and license |
 | --- | --- | --- | --- |
 | [agentBridge](https://github.com/otterview-labs/agentBridge) | Developers who want to follow and reply to Codex and Claude Code tasks from a phone | [Android release](https://github.com/otterview-labs/agentBridge/releases/latest) · [Get started](https://github.com/otterview-labs/agentBridge/blob/main/docs/getting-started.en.md) | English and Chinese Android app. Butler queries and voice require configured services; autonomous task management remains planned. Apache-2.0. |
-| [SightIndex](https://github.com/otterview-labs/SightIndex) | Developers exploring local image, video and camera-stream retrieval | [First run](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.md) · [README](https://github.com/otterview-labs/SightIndex/blob/main/README.md) | SQLite and HOG support a basic image upload and processing flow. Attribute parsing, semantic search and ReID need additional configuration. Candidate results need human review. Original code: Apache-2.0. Bundled materials, including SapiensID, retain separate terms; see [license scope](https://github.com/otterview-labs/SightIndex/blob/main/LICENSE_SCOPE.md). |
-| [DocuGen](https://github.com/otterview-labs/DocuGen) | Individuals and teams filling Word templates or writing documents from source material | [Setup and usage](https://github.com/otterview-labs/DocuGen/blob/main/README.en.md) | Incorporates the former Quill workspace for source management, retrieval, template filling and document generation. AI features need a model service. One shared workspace, without separate user permissions. Apache-2.0, with upstream attribution and provenance retained. |
 | [AgentHarbor](https://github.com/otterview-labs/agentharbor) | Developers running coding tasks with separate execution and review on their own computer | [Desktop guide](https://github.com/otterview-labs/agentharbor/blob/main/docs/desktop-alpha.md) · [Releases](https://github.com/otterview-labs/agentharbor/releases) | Desktop alpha. Requires configured Codex and Claude Code CLIs. Platform support and known limitations are documented in the repository. MIT. |
 
 Setup requirements vary with model services, devices and runtime environments. Check the current project documentation before trying a release. Evaluate performance on your own data and review candidate search results.

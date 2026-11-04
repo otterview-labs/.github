@@ -10,16 +10,19 @@
 
 [公司官网](https://otterview.ai/zh/) · [技术文章](https://otterview-labs.github.io/zh/) · [English](https://github.com/otterview-labs/.github/blob/main/profile/README.md)
 
-## 开源项目
+## 在线体验
 
-| 项目 | 用途 | 开始使用 |
+| 项目 | 可以试什么 | 入口 |
 | --- | --- | --- |
-| [SightIndex](https://github.com/otterview-labs/SightIndex) | 图片、视频与摄像头流的视觉索引和检索。 | [首次使用](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) |
-| [agentBridge](https://github.com/otterview-labs/agentBridge) | 在 Android 手机上查看和回复 AI 编程助手会话。 | [下载安卓版](https://github.com/otterview-labs/agentBridge/releases) |
-| [AgentHarbor](https://github.com/otterview-labs/agentharbor) | 在本机执行编程任务，由不同助手负责实现和审核。桌面 Alpha 版本。 | [桌面使用说明](https://github.com/otterview-labs/agentharbor/blob/main/docs/desktop-alpha.md) |
-| [DocuGen](https://github.com/otterview-labs/DocuGen) | 检索参考资料、填写 Word 模板和生成文档。 | [安装与使用](https://github.com/otterview-labs/DocuGen#readme) |
+| [SightIndex](https://github.com/otterview-labs/SightIndex) | 按标签找人，打开裁剪图和原图核对。 | [检索公开样例](http://43.153.213.96/search) |
+| [DocuGen](https://github.com/otterview-labs/DocuGen) | 选一份 Word 模板，填入内容并下载文档。 | [打开模板库](https://docugen.otterview.ai/templates?source=builtin) |
 
-配置条件、当前能力与许可证见[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.zh-CN.md)。SightIndex 的候选结果需要人工复核；各项目的 AI 功能需配置相应模型服务。
+## 开发者工具
+
+- [agentBridge](https://github.com/otterview-labs/agentBridge)：在 Android 手机上查看和回复 Codex、Claude Code 会话。[下载安卓版](https://github.com/otterview-labs/agentBridge/releases)
+- [AgentHarbor](https://github.com/otterview-labs/agentharbor)：在桌面运行本地编程任务，由不同助手负责实现和审核。[桌面 Alpha 使用说明](https://github.com/otterview-labs/agentharbor/blob/main/docs/desktop-alpha.md)
+
+[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.zh-CN.md)还收录了独立文档检索工具和 AMD 图像服务，并列出各项目的配置要求与许可证。
 
 ## 模型训练与部署
 

@@ -10,16 +10,19 @@ We build AI vision software for model training and deployment, alongside open-so
 
 [Website](https://otterview.ai/) · [Technical articles](https://otterview-labs.github.io/) · [中文](https://github.com/otterview-labs/.github/blob/main/profile/README.zh-CN.md)
 
-## Open-source projects
+## Try online
 
-| Project | What it does | Start here |
+| Project | What to try | Open the demo |
 | --- | --- | --- |
-| [SightIndex](https://github.com/otterview-labs/SightIndex) | Index and search images, videos and camera streams. | [First run](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.md) |
-| [agentBridge](https://github.com/otterview-labs/agentBridge) | Follow and reply to coding-agent sessions from an Android phone. | [Android releases](https://github.com/otterview-labs/agentBridge/releases) |
-| [AgentHarbor](https://github.com/otterview-labs/agentharbor) | Run local coding tasks with separate execution and review. Desktop alpha. | [Desktop guide](https://github.com/otterview-labs/agentharbor/blob/main/docs/desktop-alpha.md) |
-| [DocuGen](https://github.com/otterview-labs/DocuGen) | Search source material, fill Word templates and generate documents. | [Setup and usage](https://github.com/otterview-labs/DocuGen/blob/main/README.en.md) |
+| [SightIndex](https://github.com/otterview-labs/SightIndex) | Search by clothing label, then compare the crops with the original photo. | [Search the public sample](http://43.153.213.96/search) |
+| [DocuGen](https://github.com/otterview-labs/DocuGen) | Pick a Word template, fill it in, and download the document. | [Open the template library](https://docugen.otterview.ai/templates?source=builtin) |
 
-See the [project index](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.md) for requirements, current scope and licenses. SightIndex results need human review; AI features in these projects require the relevant model services.
+## Developer tools
+
+- [agentBridge](https://github.com/otterview-labs/agentBridge): Follow and reply to Codex and Claude Code sessions from Android. [Android releases](https://github.com/otterview-labs/agentBridge/releases)
+- [AgentHarbor](https://github.com/otterview-labs/agentharbor): Run coding tasks on your desktop with separate execution and review. [Desktop alpha guide](https://github.com/otterview-labs/agentharbor/blob/main/docs/desktop-alpha.md)
+
+The [project index](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.md) also lists our standalone document search workspace and AMD image service, with setup requirements and licenses.
 
 ## Model training and deployment
 

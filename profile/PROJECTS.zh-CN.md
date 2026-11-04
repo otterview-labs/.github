@@ -6,11 +6,25 @@
 
 ## 公开仓库
 
+### 视觉检索与图像服务
+
+| 项目 | 适合谁 | 开始使用 | 当前状态与授权 |
+| --- | --- | --- | --- |
+| [SightIndex](https://github.com/otterview-labs/SightIndex) | 研究本地图片、视频和摄像头流检索的开发者 | [在线演示](http://43.153.213.96/search) · [上传、处理与结果核对](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) · [常见问题](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md#常见问题) · [English](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.md) | 默认 SQLite + HOG 可体验图片接入与处理；属性解析、语义检索和 ReID 需额外配置。候选结果需人工核验。原创代码采用 Apache-2.0；内附 SapiensID 等材料保留单独授权，见[适用范围](https://github.com/otterview-labs/SightIndex/blob/main/LICENSE_SCOPE.md)。 |
+| [Qwen-Image-2.1-AMD-Service](https://github.com/otterview-labs/Qwen-Image-2.1-AMD-Service) | 在 AMD GPU 上接入 Qwen 图像生成和编辑的开发者 | [接口说明](https://github.com/otterview-labs/Qwen-Image-2.1-AMD-Service#readme) | 当前配置面向 AMD Radeon AI PRO R9700。Apache-2.0。 |
+
+### 文档工具
+
+| 项目 | 适合谁 | 开始使用 | 当前状态与授权 |
+| --- | --- | --- | --- |
+| [DocuGen](https://github.com/otterview-labs/DocuGen) | 需要基于资料填写 Word 模板或生成文档的个人和团队 | [在线演示](https://docugen.otterview.ai/templates?source=builtin) · [安装与使用](https://github.com/otterview-labs/DocuGen#readme) | 整合原 Quill 工作台，支持资料管理、检索、模板填写和文档生成。AI 功能需配置模型；常规自部署使用共享工作区。Apache-2.0，保留上游署名与来源记录。 |
+| [OtterView Knowledge](https://github.com/otterview-labs/otterview-knowledge) | 需要查找文档、阅读原文和查看摘要的人 | [部署与使用](https://github.com/otterview-labs/otterview-knowledge/blob/main/README.zh-CN.md) | 独立部署，使用共享操作账号。Apache-2.0。 |
+
+### 开发者工具
+
 | 项目 | 适合谁 | 开始使用 | 当前状态与授权 |
 | --- | --- | --- | --- |
 | [agentBridge · 办公小镇](https://github.com/otterview-labs/agentBridge) | 希望在手机上查看和回复 Codex、Claude Code 任务的开发者 | [下载安卓版](https://github.com/otterview-labs/agentBridge/releases/latest)，按[使用说明](https://github.com/otterview-labs/agentBridge/blob/main/docs/android-app.md)连接自己的开发机器 | 提供中英文安卓版；管家查询与语音需配置服务，自主任务管理仍在计划中。Apache-2.0。 |
-| [SightIndex](https://github.com/otterview-labs/SightIndex) | 研究本地图片、视频和摄像头流检索的开发者 | [上传、处理与结果核对](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md) · [常见问题](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.zh-CN.md#常见问题) · [English](https://github.com/otterview-labs/SightIndex/blob/main/docs/first-run.md) | 默认 SQLite + HOG 可体验图片接入与处理；属性解析、语义检索和 ReID 需额外配置。候选结果需人工核验。原创代码采用 Apache-2.0；内附 SapiensID 等材料保留单独授权，见[适用范围](https://github.com/otterview-labs/SightIndex/blob/main/LICENSE_SCOPE.md)。 |
-| [DocuGen](https://github.com/otterview-labs/DocuGen) | 需要基于资料填写 Word 模板或生成文档的个人和团队 | [安装与使用](https://github.com/otterview-labs/DocuGen#readme) · [English](https://github.com/otterview-labs/DocuGen/blob/main/README.en.md) | 整合原 Quill 工作台，支持资料管理、检索、模板填写和文档生成。AI 功能需配置模型；当前为共享工作区，没有独立用户权限。Apache-2.0，保留上游署名与来源记录。 |
 | [AgentHarbor](https://github.com/otterview-labs/agentharbor) | 希望在本机执行编程任务，并由不同助手负责实现和审核的开发者 | [桌面使用说明](https://github.com/otterview-labs/agentharbor/blob/main/docs/desktop-alpha.md) · [版本发布](https://github.com/otterview-labs/agentharbor/releases) | 桌面 Alpha 版本，需配置 Codex 与 Claude Code CLI。平台支持与已知限制见仓库说明。MIT。 |
 
 模型服务、设备与运行环境不同，体验条件也会不同。请先查看各项目的当前文档；不要把模拟数据或候选检索结果当成生产效果。
