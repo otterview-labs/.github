@@ -17,11 +17,6 @@
 | [SightIndex](https://github.com/otterview-labs/SightIndex) | 按标签找人，打开裁剪图和原图核对。 | [检索公开样例](http://43.153.213.96/search) |
 | [DocuGen](https://github.com/otterview-labs/DocuGen) | 选一份 Word 模板，填入内容并下载文档。 | [打开模板库](https://docugen.otterview.ai/templates?source=builtin) |
 
-## 开发者工具
-
-- [agentBridge](https://github.com/otterview-labs/agentBridge)：在 Android 手机上查看和回复 Codex、Claude Code 会话。[下载安卓版](https://github.com/otterview-labs/agentBridge/releases)
-- [AgentHarbor](https://github.com/otterview-labs/agentharbor)：在桌面运行本地编程任务，由不同助手负责实现和审核。[桌面 Alpha 使用说明](https://github.com/otterview-labs/agentharbor/blob/main/docs/desktop-alpha.md)
-
 [项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.zh-CN.md)还收录了独立文档检索工具和 AMD 图像服务，并列出各项目的配置要求与许可证。
 
 ## 模型训练与部署

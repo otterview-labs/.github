@@ -2,7 +2,7 @@
 
 English · [中文](PROJECTS.zh-CN.md)
 
-[Organization](https://github.com/otterview-labs) · [Website](https://otterview-labs.github.io/) · [Team notes](TEAM.md)
+[Organization](https://github.com/otterview-labs) · [Official website](https://otterview.ai/) · [Technical articles](https://otterview-labs.github.io/) · [Team notes](TEAM.md)
 
 ## Public repositories
 
@@ -19,13 +19,6 @@ English · [中文](PROJECTS.zh-CN.md)
 | --- | --- | --- | --- |
 | [DocuGen](https://github.com/otterview-labs/DocuGen) | Individuals and teams filling Word templates or writing documents from source material | [Live demo](https://docugen.otterview.ai/templates?source=builtin) · [Setup and usage](https://github.com/otterview-labs/DocuGen#readme) | Incorporates the former Quill workspace for source management, retrieval, template filling and document generation. AI features need a model service. The standard self-hosted setup uses one shared workspace. Apache-2.0, with upstream attribution and provenance retained. |
 | [OtterView Knowledge](https://github.com/otterview-labs/otterview-knowledge) | People who need to find documents, read originals and see summaries | [Setup and usage](https://github.com/otterview-labs/otterview-knowledge#readme) | Standalone deployment with one shared operator account. Apache-2.0. |
-
-### Developer tools
-
-| Project | Who it is for | Try it | Status and license |
-| --- | --- | --- | --- |
-| [agentBridge](https://github.com/otterview-labs/agentBridge) | Developers who want to follow and reply to Codex and Claude Code tasks from a phone | [Android release](https://github.com/otterview-labs/agentBridge/releases/latest) · [Get started](https://github.com/otterview-labs/agentBridge/blob/main/docs/getting-started.en.md) | English and Chinese Android app. Butler queries and voice require configured services; autonomous task management remains planned. Apache-2.0. |
-| [AgentHarbor](https://github.com/otterview-labs/agentharbor) | Developers running coding tasks with separate execution and review on their own computer | [Desktop guide](https://github.com/otterview-labs/agentharbor/blob/main/docs/desktop-alpha.md) · [Releases](https://github.com/otterview-labs/agentharbor/releases) | Desktop alpha. Requires configured Codex and Claude Code CLIs. Platform support and known limitations are documented in the repository. MIT. |
 
 Setup requirements vary with model services, devices and runtime environments. Check the current project documentation before trying a release. Evaluate performance on your own data and review candidate search results.
 

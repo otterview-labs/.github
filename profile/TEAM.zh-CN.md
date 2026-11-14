@@ -58,7 +58,6 @@ aibox 是结合 CV 与大模型的视觉分析软件。CV 检测目标并筛选�
 
 | 项目 | 用途 |
 | --- | --- |
-| [agentBridge](https://github.com/otterview-labs/agentBridge) | 在手机上查看多台开发机器的 Codex、Claude Code 会话，查询待回复任务、准备草稿，并由用户发送回复。 |
 | [SightIndex](https://github.com/otterview-labs/SightIndex) | 图片、视频和摄像头流的视觉索引与检索，结果需人工复核。 |
 
 各项目的安装入口与当前状态见[项目索引](https://github.com/otterview-labs/.github/blob/main/profile/PROJECTS.zh-CN.md)。许可证与适用范围以各仓库的授权文件为准。

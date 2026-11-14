@@ -58,7 +58,6 @@ Integration between robotic arms, PLCs and embedded controllers is also being st
 
 | Project | Purpose |
 | --- | --- |
-| [agentBridge](https://github.com/otterview-labs/agentBridge) | Follow Codex and Claude Code sessions across development machines from a phone, find tasks awaiting a reply, and prepare drafts for the user to send. |
 | [SightIndex](https://github.com/otterview-labs/SightIndex) | Visual indexing and retrieval for images, videos and camera streams. A self-hosted visual retrieval project whose results need human review. |
 
 See the [project index](PROJECTS.md) for setup and current status. License terms and scope are defined in each repository.
