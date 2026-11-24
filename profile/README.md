@@ -21,7 +21,7 @@ The [project index](https://github.com/otterview-labs/.github/blob/main/profile/
 
 ## Model training and deployment
 
-[Lutrio](https://otterview.ai/training-platform) brings data preparation, assisted annotation and CV/VLM training workflows into one project. Its overseas environment currently provides invited sign-in; complete training execution is not open yet. See the product page for availability.
+[lutrain](https://otterview.ai/training-platform) brings data preparation, assisted annotation and CV/VLM training workflows into one project. Its overseas environment currently provides invited sign-in; complete training execution is not open yet. See the product page for availability.
 
 [AIBox](https://otterview.ai/event-verification) combines CV detection and vision-language model review for on-site video analysis. We develop the software and model integrations.
 

@@ -21,7 +21,7 @@
 
 ## 模型训练与部署
 
-[Lutrio](https://otterview.ai/zh/training-platform) 在同一个项目里管理数据准备、辅助标注和 CV/VLM 模型训练流程。目前海外环境提供受邀登录，完整训练执行尚未开放，具体开放范围见产品页。
+[lutrain](https://otterview.ai/zh/training-platform) 在同一个项目里管理数据准备、辅助标注和 CV/VLM 模型训练流程。目前海外环境提供受邀登录，完整训练执行尚未开放，具体开放范围见产品页。
 
 aibox 结合 CV 检测与视觉语言模型复核，用于现场视频分析。我们主要开发软件与模型适配。
 
